@@ -1,22 +1,40 @@
-<template>
-    <div class="testimonial py-20 text-center relative">
-        <Swiper :modules="[Navigation, Pagination, Autoplay]" :pagination="{ clickable: true }" :navigation="true"
-            :autoplay="{ delay: 5000 }" loop class="max-w-5xl mx-auto">
-            <SwiperSlide v-for="(testimonial, index) in testimonials" :key="index">
-                <blockquote class="flex flex-col items-center p-4 max-w-4xl mx-auto">
-                    <p class="text-xl font-medium text-gray-700">
-                        "{{ testimonial.message }}"
-                    </p>
-                    <footer class="flex flex-col items-center gap-1 mt-6">
-                        <p class="font-bold text-lg">{{ testimonial.name }}</p>
-                        <p class="font-medium text-black/60">{{ testimonial.title }}</p>
-                    </footer>
-                </blockquote>
-            </SwiperSlide>
 
-        </Swiper>
+<template>
+  <section class="sm:px-6 lg:px-8">
+    <div class="testimonial_wrapper | lg:w-5xl mx-auto w-full text-center">
+      <Swiper
+        :modules="[Navigation, Pagination, Autoplay]"
+        :pagination="{ clickable: true }"
+        :navigation="true"
+        :autoplay="{ delay: 5000 }"
+        loop
+        class="testimonial_content | w-[100%] relative"
+      >
+        <SwiperSlide
+          v-for="(testimonial, index) in testimonials"
+          :key="index"
+          class=""
+        >
+          <blockquote
+            class="flex flex-col items-center justify-center px-4 sm:px-8 h-full"
+          >
+            <p
+              class="text-base sm:text-lg md:text-xl lg:text-2xl font-medium text-gray-700  max-w-3xl mx-auto"
+            >
+              “{{ testimonial.message }}”
+            </p>
+            <footer class="mt-6 sm:mt-8 text-center">
+              <p class="text-base font-semibold">{{ testimonial.name }}</p>
+              <p class="text-sm text-gray-500">{{ testimonial.title }}</p>
+            </footer>
+          </blockquote>
+        </SwiperSlide>
+
+      </Swiper>
     </div>
+  </section>
 </template>
+
 
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
@@ -66,13 +84,35 @@ const testimonials = [
     z-index: 10;
     font-size: 32px;
 }
-.swiper-button-prev{
+
+.swiper-button-prev {
     left: 5px;
 }
-.swiper-button-prev{
+
+.swiper-button-prev {
     right: 5px;
 }
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 0;
+
+.swiper-pagination {
+    display: none;
+}
+/* 
+.swiper-slide p{
+    width: 80vw;
+} */
+
+
+
+
+@media (max-width: 640px) {
+
+    /* .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    } */
+
+    .testimonial_content {
+    width: 100vw;
+}
 }
 </style>

@@ -27,7 +27,7 @@ import Hero from '~/components/pages/Hero.vue'
   width: 100%;
   padding: 20px 0;
   height: 110px;
-  z-index: 1;
+  z-index: 99;
 }
 
 </style>
