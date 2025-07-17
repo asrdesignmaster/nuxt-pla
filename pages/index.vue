@@ -178,18 +178,23 @@
         <div class="flex-1 flex flex-col justify-center p-8">
           <h3 class="text-white font-bold text-4xl">Furniture and Show pieces specialized</h3>
           <p class="text-white text-2xl py-5">Gold and Silver leafing work</p>
-          <p class="text-white text-xl py-5">In Holy places, like Mandir, Masjid, Grudwara and Holy Shrines. Only real Gold and
-            precious materials are
-            being used from centuries.</p>
-          <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration inspite of
-            very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a new era in the world of interior lamination and paintings.</p>
+          <p class="text-white text-xl py-5">In Holy places, like Mandir, Masjid, Grudwara and Holy Shrines. Only real
+            Gold and precious materials are being used from centuries.</p>
+          <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration
+            inspite of very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a
+            new era in the world of interior lamination and paintings.</p>
         </div>
         <div class="flex-1 flex items-center justify-center">
           <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
-            class="object-cover transform group-hover:scale-110 transition-transform duration-500"
+            class="object-cover transform group-hover:scale-110 transition-transform duration-500 shadow-lg"
             :format="webp" sizes="360px" />
         </div>
       </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="testimonial | py-20 text-center">
+      <TestimonialSlider />
     </div>
   </div>
 
@@ -197,9 +202,13 @@
 
 <script setup>
 import Button from '~/components/common/Button.vue'
+import TestimonialSlider from '~/components/common/TestimonialSlider.vue'
+
 definePageMeta({
   layout: 'homepage'
 })
+
+
 </script>
 <style scoped>
 .leafing {
@@ -223,6 +232,7 @@ definePageMeta({
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     flex: 1 1 0;
     transition: flex .4s, -webkit-box-flex .4s, -ms-flex .4s;
     cursor: pointer;
