@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header backdrop-blur-xs">
 
       <div class="container">
         <div class="header_content">
@@ -27,14 +27,7 @@ import Navigation from '~/components/layout/Navigation.vue'
 
 </script>
 <style scoped>
-.header {
-  color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 20px 0;
-  height: 110px;
-}
+
 .header_content {
   display: flex;
   justify-content: space-between;
