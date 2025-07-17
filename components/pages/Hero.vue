@@ -1,5 +1,5 @@
 <template>
-    <section class="hero">
+    <section class="hero brightness-[.9]">
         <NuxtImg 
             src="/images/leaf-white.svg" 
             alt="Leaf" 
