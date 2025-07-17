@@ -25,9 +25,11 @@
   }
 
   .button {
-    @apply bg-black text-white py-2 px-6 uppercase outline-2 outline-white rounded-full hover:bg-gray-800 transition duration-500;
+    @apply bg-black text-white py-2 px-6 uppercase outline-2 outline-white rounded-full hover:bg-gray-800 transition duration-500 focus:outline-none;
   }
-
+  .curtain {
+    @apply absolute inset-0 bg-neutral-900 opacity-80 z-[1];
+  }
 }
 
 .nav a{

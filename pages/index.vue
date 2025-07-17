@@ -38,7 +38,9 @@
         </div>
       </div>
     </div>
-    <div class="out_work | py-20 text-center">
+  </div>
+  <div class="out_work | bg-gray-100">
+    <div class="container py-20 text-center ">
       <h2>Our Work</h2>
       <div class="work_gallery | grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div class="overflow-hidden group">
@@ -86,6 +88,8 @@
         <Button link="/gallery">View Gallery</Button>
       </div>
     </div>
+  </div>
+  <div class="container">
     <div class="out_specialization | py-20 text-center">
       <h2>Our Specialization</h2>
       <div class="mt-12  p-8 ">
@@ -167,6 +171,27 @@
       </div>
     </div>
   </div>
+  <div class="showpieces | py-20 relative">
+    <div class="curtain "></div>
+    <div class="container">
+      <div class="flex relative z-10">
+        <div class="flex-1 flex flex-col justify-center p-8">
+          <h3 class="text-white font-bold text-4xl">Furniture and Show pieces specialized</h3>
+          <p class="text-white text-2xl py-5">Gold and Silver leafing work</p>
+          <p class="text-white text-xl py-5">In Holy places, like Mandir, Masjid, Grudwara and Holy Shrines. Only real Gold and
+            precious materials are
+            being used from centuries.</p>
+          <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration inspite of
+            very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a new era in the world of interior lamination and paintings.</p>
+        </div>
+        <div class="flex-1 flex items-center justify-center">
+          <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
+            class="object-cover transform group-hover:scale-110 transition-transform duration-500"
+            :format="webp" sizes="360px" />
+        </div>
+      </div>
+    </div>
+  </div>
 
 </template>
 
@@ -212,5 +237,12 @@ definePageMeta({
       z-index: 1;
     }
   }
+}
+
+.showpieces {
+  background: url('/images/relegious.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 </style>
