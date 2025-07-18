@@ -89,8 +89,8 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="out_specialization | py-20 text-center">
+  <div class="out_specialization | container">
+    <div class="py-20 text-center">
       <h2>Our Specialization</h2>
       <div class="mt-12  p-0 md:p-8 ">
         <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8 text-left">
@@ -183,6 +183,7 @@
           <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration
             inspite of very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a
             new era in the world of interior lamination and paintings.</p>
+            <Button link="/gallery" class="max-w-[180px] text-center">View Gallery</Button>
         </div>
         <div class="lg:flex-1 md:flex-auto flex items-center justify-center">
           <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
@@ -192,8 +193,8 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="testimonial | py-20 text-center">
+  <div class="testimonial | container">
+    <div class="py-20 text-center">
       <TestimonialSlider />
     </div>
   </div>

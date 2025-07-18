@@ -13,6 +13,9 @@
       <NuxtLink to="https://wa.me/1234567890">
         <Icon name="uil:whatsapp" class="text-white text-2xl" />
       </NuxtLink>
+      <NuxtLink to="https://instagram.com/para.diseleafingart?igshid=ZDdkNTZiNTM=" target="_blank">
+        <Icon name="uil:instagram" class="text-white text-2xl" />
+      </NuxtLink>
     </nav>
 </template>
 <script setup>
