@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     preset: 'static'
   },
   app: {
-    baseURL: '/sites/nuxt-test', // Use relative base path for static hosting
+    baseURL: '/', // Use relative base path for static hosting //sites/nuxt-test
     head: {
       htmlAttrs: {
         lang: 'en' // or 'hi', 'fr', etc.
