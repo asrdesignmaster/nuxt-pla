@@ -22,8 +22,11 @@ import Footer from '~/components/layout/Footer.vue'
 <style scoped>
 .header {
   background: var(--color-gray-900);
+  height: 110px;
+    padding-block: 10px;
+    color: white;
 }
 .page-content {
-  padding-top: 120px;
+  padding-top: 32px;
 }
 </style>

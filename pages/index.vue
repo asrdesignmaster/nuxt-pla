@@ -183,7 +183,7 @@
           <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration
             inspite of very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a
             new era in the world of interior lamination and paintings.</p>
-            <Button link="/gallery" class="max-w-[180px] text-center">View Gallery</Button>
+          <Button link="/gallery" class="max-w-[180px] text-center">View Gallery</Button>
         </div>
         <div class="lg:flex-1 md:flex-auto flex items-center justify-center">
           <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
@@ -247,7 +247,7 @@
           <h2 class="text-2xl font-bold">Locations</h2>
           <p class="text-gray-600">Paradise Leafing Art is based in Mumbai, and we do projects nationally and
             internationally. This are the few places where we had done several projects.</p>
-            <h3 class=" mt-4 font-bold">National (India)</h3>
+          <h3 class=" mt-4 font-bold">National (India)</h3>
           <ul class="flex flex-col space-y-3">
             <li href="#" class="text-gray-500 mb-0">Mumbai </li>
             <li href="#" class="text-gray-500 mb-0">Hyderabad </li>
@@ -258,7 +258,7 @@
             <li href="#" class="text-gray-500 mb-0">Chennai </li>
             <li href="#" class="text-gray-500 mb-0">Rajasthan </li>
           </ul>
-            <h3 class=" mt-4 font-bold">International</h3>
+          <h3 class=" mt-4 font-bold">International</h3>
           <ul class="flex flex-col space-y-3">
             <li href="#" class="text-gray-500 mb-0">Iraq </li>
             <li href="#" class="text-gray-500 mb-0">Iran </li>
