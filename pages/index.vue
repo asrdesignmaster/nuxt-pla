@@ -279,6 +279,15 @@ definePageMeta({
   layout: 'homepage'
 })
 
+useHead({
+  title: 'Home - Paradise Leafing Art',
+  meta: [
+    {
+      name: 'description',
+      content: 'Gold and silver leafing services for furniture, religious places, and interior decor across India.'
+    }
+  ]
+})
 
 </script>
 <style scoped>
