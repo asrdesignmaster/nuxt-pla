@@ -15,7 +15,7 @@
           </div>
           <Navigation />
           <div class="toggle_btn lg:hidden">
-            <Icon name="uil:burger" size="24" />
+            <Icon name="material-symbols:menu" size="24" />
           </div>
         </div>
       </div>

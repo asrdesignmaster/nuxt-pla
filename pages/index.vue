@@ -197,11 +197,24 @@
       <TestimonialSlider />
     </div>
   </div>
+  <div class="call_now | bg-gray-900 py-20 text-center">
+    <div class="container">
+      <div class="flex items-center justify-center flex-col md:flex-row">
+
+        <h1 class="text-white text-xl md:text-2xl lg:text-3xl pb-3 md:pb-0 pr-5">Call Now for more details
+        </h1>
+        <div class="flex items-center gap-2 ">
+          <Icon name="material-symbols:phone-in-talk-watchface-indicator-sharp"  class="text-white text-white text-2xl md:text-3xl lg:text-4xl "/>
+          <span class="text-white text-2xl md:text-3xl lg:text-4xl ">+91 982 076 7744</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </template>
 
 <script setup>
-import Button from '~/components/common/Button.vue'
+import Button from '~/components/common/LinkButton.vue'
 import TestimonialSlider from '~/components/common/TestimonialSlider.vue'
 
 definePageMeta({
@@ -232,7 +245,6 @@ definePageMeta({
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     flex: 1 1 0;
     transition: flex .4s, -webkit-box-flex .4s, -ms-flex .4s;
     cursor: pointer;
@@ -254,5 +266,7 @@ definePageMeta({
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+
 }
 </style>

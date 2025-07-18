@@ -16,7 +16,7 @@ Champagne & <br/>Antique Styles Handcrafted Elegance</h1>
 </template>
 
 <script setup>
-import Button from '~/components/common/Button.vue'
+import Button from '~/components/common/LinkButton.vue'
 </script>
 <style scoped>
 
