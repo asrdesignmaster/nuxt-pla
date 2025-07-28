@@ -39,6 +39,36 @@
       </div>
     </div>
   </div>
+  <section class="videos">
+    <div class="container">
+      <div class="flex flex-col lg:flex-row gap-4 justify-between">
+        <div class="">
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
+            <source src="/videos/paradise-leafing-art-railing.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="">
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
+            <source src="/videos/paradise-leafing-art-brushing.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="">
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
+            <source src="/videos/paradise-leafing-art-patching.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="">
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
+            <source src="/videos/paradise-leafing.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
   <div class="out_work | bg-gray-100">
     <div class="container py-20 text-center ">
       <h2>Our Work</h2>
@@ -54,32 +84,32 @@
             format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
-          <NuxtImg src="/images/gallery/bunglow-1.webp" alt="Leafing Work 3"
+          <NuxtImg src="/images/gallery/furniture-6.webp" alt="Leafing Work 3"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
             format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
-          <NuxtImg src="/images/gallery/bunglow-2.webp" alt="Leafing Work 4"
+          <NuxtImg src="/images/gallery/masjid-5.webp" alt="Leafing Work 4"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
             format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
-          <NuxtImg src="/images/gallery/bunglow-1.webp" alt="Leafing Work 1"
+          <NuxtImg src="/images/gallery/frame-1.webp" alt="Leafing Work 1"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
             format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
-          <NuxtImg src="/images/gallery/bunglow-2.webp" alt="Leafing Work 2"
+          <NuxtImg src="/images/gallery/furniture-1.webp" alt="Leafing Work 2"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
             format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
-          <NuxtImg src="/images/gallery/bunglow-1.webp" alt="Leafing Work 3"
+          <NuxtImg src="/images/gallery/showpiece-3.webp" alt="Leafing Work 3"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
             format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
-          <NuxtImg src="/images/gallery/bunglow-2.webp" alt="Leafing Work 4"
+          <NuxtImg src="/images/gallery/showroom-6.webp" alt="Leafing Work 4"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
             format="webp" sizes="360px" loading="lazy" />
         </div>
@@ -115,6 +145,7 @@
   <div class="testimonial">
     <div class="conatiner">
       <div class="py-20 text-center">
+        <h2>Testimonial</h2>
         <TestimonialSlider />
       </div>
     </div>
