@@ -26,7 +26,7 @@ import PreFooter from '~/components/layout/PreFooter.vue'
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 20px 0;
+  padding: 16px 0;
   height: 110px;
   z-index: 99;
 }

@@ -5,9 +5,9 @@
                 <h2>Our Specialization</h2>
                 <div class="mt-12  p-0 md:p-8 ">
                     <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8 text-left">
-                        <div class="flex items-start ">
+                        <div class="flex items-start flex-col lg:flex-row flex-col lg:flex-row">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/masjid.svg" alt="masjid" class="max-w-[52px]" loading="lazy" />
+                                <NuxtImg src="/images/icons/masjid.svg" alt="masjid" class="w-[80px] lg:max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Pure Gold Leafing for Masjid</h4>
@@ -16,9 +16,9 @@
                                     Mostly it's done in original gold but rarely in artificial.</p>
                             </div>
                         </div>
-                        <div class="flex items-start">
+                        <div class="flex items-start flex-col lg:flex-row">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/mandir.svg" alt="mandir" class="max-w-[52px]" loading="lazy" />
+                                <NuxtImg src="/images/icons/mandir.svg" alt="mandir" class="w-[80px] lg:max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Shrines & Temples</h4>
@@ -31,9 +31,9 @@
                                     ceiling,walls, furniture, centre piece, frames etc.</p>
                             </div>
                         </div>
-                        <div class="flex items-start">
+                        <div class="flex items-start flex-col lg:flex-row">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/flats.svg" alt="flats" class="max-w-[52px]" loading="lazy" />
+                                <NuxtImg src="/images/icons/flats.svg" alt="flats" class="w-[80px] lg:max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Decoration for Flats</h4>
@@ -46,9 +46,9 @@
                                     walls, furniture, center piece & frames etc.</p>
                             </div>
                         </div>
-                        <div class="flex items-start">
+                        <div class="flex items-start flex-col lg:flex-row">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/leaf.svg" alt="leaf" class="max-w-[52px]" loading="lazy" />
+                                <NuxtImg src="/images/icons/leaf.svg" alt="leaf" class="w-[80px] lg:max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Customized Leafing</h4>
@@ -60,9 +60,9 @@
                                     per the client's demand.</p>
                             </div>
                         </div>
-                        <div class="flex items-start">
+                        <div class="flex items-start flex-col lg:flex-row">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/showroom.svg" alt="showroom" class="max-w-[52px]" loading="lazy" />
+                                <NuxtImg src="/images/icons/showroom.svg" alt="showroom" class="w-[80px] lg:max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Showrooms</h4>
@@ -71,9 +71,9 @@
                                     furniture and frames to give a modern and more refined look .</p>
                             </div>
                         </div>
-                        <div class="flex items-start">
+                        <div class="flex items-start flex-col lg:flex-row">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/furniture.svg" alt="furniture" class="max-w-[52px]" loading="lazy" />
+                                <NuxtImg src="/images/icons/furniture.svg" alt="furniture" class="w-[80px] lg:max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Furnitures & Show Pieces</h4>
@@ -84,9 +84,9 @@
                                     to give attractive look.</p>
                             </div>
                         </div>
-                        <div class="flex items-start">
+                        <div class="flex items-start flex-col lg:flex-row">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/bunglow.svg" alt="bunglow" class="max-w-[52px]" />
+                                <NuxtImg src="/images/icons/bunglow.svg" alt="bunglow" class="w-[80px] lg:max-w-[52px]" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Bungalows</h4>

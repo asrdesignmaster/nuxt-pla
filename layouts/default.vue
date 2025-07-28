@@ -23,8 +23,9 @@ import PreFooter from '~/components/layout/PreFooter.vue'
 .header {
   background: var(--color-gray-900);
   height: 110px;
-  padding-block: 10px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .page-content {
