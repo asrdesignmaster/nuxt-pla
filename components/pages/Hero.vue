@@ -1,22 +1,22 @@
 <template>
-    <section class="hero">
+    <section class="hero brightness-[.9]">
         <NuxtImg 
             src="/images/leaf-white.svg" 
             alt="Leaf" 
             width="150" 
             height="86" 
-            class="mx-auto mb-8"
+            class="mx-auto mb-8" loading="lazy"
             />
       <h1 class="text-white text-3xl md:text-4xl lg:text-6xl leading-12 md:leading-16 lg:leading-24 | font-bold text-shadow-gray-800 text-shadow-lg/30">Luxury Leafing in Gold, Silver, Copper,
 Champagne & <br/>Antique Styles Handcrafted Elegance</h1>
       <p class="text-lg md:text-2xl lg:text-3xl my-5 ">We operate across India, with a special focus on Mumbai and Hyderabad, specializing in gold and silver leafing.</p>
-    <Button link="/about">Read more</Button>
+    <Button link="/about-us">Read more<span class="sr-only">About Paradise Leafing Art</span></Button>
 
     </section>
 </template>
 
 <script setup>
-import Button from '~/components/common/Button.vue'
+import Button from '~/components/common/LinkButton.vue'
 </script>
 <style scoped>
 
