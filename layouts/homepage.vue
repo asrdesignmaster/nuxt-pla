@@ -6,7 +6,7 @@
     <main class="main_content">
       <NuxtPage />
     </main>
-
+    <PreFooter />
     <Footer />
   </div>
 </template>
@@ -15,6 +15,7 @@
 import Header from '~/components/layout/Header.vue'
 import Footer from '~/components/layout/Footer.vue'
 import Hero from '~/components/pages/Hero.vue'
+import PreFooter from '~/components/layout/PreFooter.vue'
 </script>
 
 <style scoped>

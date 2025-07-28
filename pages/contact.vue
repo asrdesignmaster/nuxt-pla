@@ -98,10 +98,9 @@
             </div>
       </section>
 
-      <PreFooter />
 </template>
 
 <script setup>
 import SocialIcons from '~/components/layout/Social.vue'
-import PreFooter from '~/components/layout/PreFooter.vue'
+
 </script>

@@ -4,12 +4,11 @@
       <Header />
     </div>
     <main class="page-content">
-      <div class="container">
-        <div class="main_content_wrapper">
-          <NuxtPage />
-        </div>
+      <div class="main_content_wrapper">
+        <NuxtPage />
       </div>
     </main>
+    <PreFooter />
     <Footer />
   </div>
 </template>
@@ -17,15 +16,17 @@
 <script setup>
 import Header from '~/components/layout/Header.vue'
 import Footer from '~/components/layout/Footer.vue'
+import PreFooter from '~/components/layout/PreFooter.vue'
 </script>
 
 <style scoped>
 .header {
   background: var(--color-gray-900);
   height: 110px;
-    padding-block: 10px;
-    color: white;
+  padding-block: 10px;
+  color: white;
 }
+
 .page-content {
   padding-top: 32px;
 }

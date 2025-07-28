@@ -1,5 +1,5 @@
 <template>
-    <section class="pre_footer | py-16">
+    <section class="pre_footer | py-16 border-t border-gray-300">
         <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="">
