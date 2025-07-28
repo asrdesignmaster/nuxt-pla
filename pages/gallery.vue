@@ -25,7 +25,7 @@
                               <div v-for="img in images[selectedCategory]" :key="img.src" class="gallery-image-wrapper"
                                     @click="openLightbox(img)">
                                     <NuxtImg :src="img.src" :alt="img.alt" class="gallery-image" :format="webp"
-                                          densities="x1" sizes="sm:300px" />
+                                          densities="x1" sizes="sm:300px" loading="lazy" />
                               </div>
                         </div>
                         <!-- <button class="back-btn" @click="selectedCategory = null">

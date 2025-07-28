@@ -1,5 +1,4 @@
 <template>
-
       <section class="about_us | py-20">
             <div class="container">
 

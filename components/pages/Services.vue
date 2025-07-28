@@ -7,7 +7,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8 text-left">
                         <div class="flex items-start ">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/masjid.svg" alt="masjid" class="max-w-[52px]" />
+                                <NuxtImg src="/images/icons/masjid.svg" alt="masjid" class="max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Pure Gold Leafing for Masjid</h4>
@@ -18,7 +18,7 @@
                         </div>
                         <div class="flex items-start">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/mandir.svg" alt="mandir" class="max-w-[52px]" />
+                                <NuxtImg src="/images/icons/mandir.svg" alt="mandir" class="max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Shrines & Temples</h4>
@@ -33,7 +33,7 @@
                         </div>
                         <div class="flex items-start">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/flats.svg" alt="flats" class="max-w-[52px]" />
+                                <NuxtImg src="/images/icons/flats.svg" alt="flats" class="max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Decoration for Flats</h4>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="flex items-start">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/leaf.svg" alt="leaf" class="max-w-[52px]" />
+                                <NuxtImg src="/images/icons/leaf.svg" alt="leaf" class="max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Customized Leafing</h4>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="flex items-start">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/showroom.svg" alt="showroom" class="max-w-[52px]" />
+                                <NuxtImg src="/images/icons/showroom.svg" alt="showroom" class="max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Showrooms</h4>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="flex items-start">
                             <div class="bg-primary p-2 mr-4">
-                                <NuxtImg src="/images/icons/furniture.svg" alt="furniture" class="max-w-[52px]" />
+                                <NuxtImg src="/images/icons/furniture.svg" alt="furniture" class="max-w-[52px]" loading="lazy" />
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Furnitures & Show Pieces</h4>

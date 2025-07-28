@@ -5,7 +5,7 @@
             alt="Leaf" 
             width="150" 
             height="86" 
-            class="mx-auto mb-8"
+            class="mx-auto mb-8" loading="lazy"
             />
       <h1 class="text-white text-3xl md:text-4xl lg:text-6xl leading-12 md:leading-16 lg:leading-24 | font-bold text-shadow-gray-800 text-shadow-lg/30">Luxury Leafing in Gold, Silver, Copper,
 Champagne & <br/>Antique Styles Handcrafted Elegance</h1>
