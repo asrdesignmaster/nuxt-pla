@@ -24,8 +24,8 @@
                         <div class="images-grid">
                               <div v-for="img in images[selectedCategory]" :key="img.src" class="gallery-image-wrapper"
                                     @click="openLightbox(img)">
-                                    <NuxtImg :src="img.src" :alt="img.alt" class="gallery-image"
-                                          densities="x1" sizes="sm:300px" format="webp" loading="lazy" />
+                                    <NuxtImg :src="img.src" :alt="img.alt" class="gallery-image" densities="x1"
+                                          sizes="sm:300px" format="webp" loading="lazy" />
                               </div>
                         </div>
                         <!-- <button class="back-btn" @click="selectedCategory = null">
@@ -308,6 +308,27 @@ function nextImage() {
 
                   &:hover {
                         background: var(--color-primary);
+                  }
+            }
+      }
+}
+
+@media (max-width:768px) {
+      .gallery-page {
+            .gallery-categories {
+                  .categories-grid {
+                        gap: 1rem;
+                        .category-btn {
+                              background: #fff;
+                              border: 2px solid var(--color-primary);
+                              border-radius: 8px;
+                              padding: .5rem 1rem;
+                              display: flex;
+                              flex-direction: column;
+                              align-items: center;
+                              cursor: pointer;
+                              transition: background 0.2s, border 0.2s;
+                        }
                   }
             }
       }

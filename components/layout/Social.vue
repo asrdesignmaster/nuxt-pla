@@ -1,13 +1,20 @@
 <template>
     <div class="flex items-center gap-4">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-            <Icon name="mdi:facebook" class="text-4xl" />
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-            <Icon name="ri:linkedin-box-fill" class="text-4xl" />
-        </a>
-        <a href="https://wa.me/+91 9819617674" target="_blank" rel="noopener noreferrer">
+        <NuxtLink to="tel:+919820767744">
+            <span class="sr-only">Call us</span>
+            <Icon name="material-symbols:call" class="text-4xl" />
+        </NuxtLink>
+        <NuxtLink to="mailto:info@paradiseleafingart.in">
+            <span class="sr-only">Email us</span>
+            <Icon name="material-symbols:mail-outline" class="text-4xl" />
+        </NuxtLink>
+        <NuxtLink to="https://wa.me/+919820767744">
+            <span class="sr-only">Lets Chat on WhatsApp</span>
             <Icon name="ic:outline-whatsapp" class="text-4xl" />
-        </a>
+        </NuxtLink>
+        <NuxtLink to="https://instagram.com/para.diseleafingart?igshid=ZDdkNTZiNTM=" target="_blank">
+            <span class="sr-only">See our instagram page</span>
+            <Icon name="mdi:instagram" class="text-4xl" />
+        </NuxtLink>
     </div>
 </template>
