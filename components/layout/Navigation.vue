@@ -2,7 +2,6 @@
     <nav class="nav  md:flex hidden">
       <Nav />
       <Social />
-      
     </nav>
 </template>
 <script setup>

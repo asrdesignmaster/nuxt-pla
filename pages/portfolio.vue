@@ -56,8 +56,20 @@
 
 <script setup>
 import CallNow from '~/components/pages/CallNow.vue'
-
 import { ref, computed } from 'vue'
+
+const config = useAppConfig()
+
+useHead({
+    title: 'Portfolio - '+ config.siteName,
+    meta: [
+        {
+            name: 'description',
+            content: 'Gallery All Bungalow Furniture Mandir Showpiece Showroom Masjid Frame Door & Ceiling Bungalow Bungalow Bungalow Bungalow Bungalow Bungalow Bungalow Bed Bed Bed Bed Bed Chiar Table Dining Table Wall Miror Sofa Sofa Sofa Side Table Side Table Side Table Side Table Side Table Side Table Dining Table Dining Table Chair Chair Chair Chair Furniture Mandir […]'
+        },
+    ]
+})
+
 
 const selectedCategory = ref('Bunglow')
 const lightboxIndex = ref(null)

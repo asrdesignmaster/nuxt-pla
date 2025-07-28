@@ -16,16 +16,16 @@
                         work with
                         sincerity to maintain the aura of leafing .</p>
                 </div>
-                <div class="">
+                <div class="" itemscope itemtype="https://schema.org/LocalBusiness">
                     <h2 class="text-2xl font-bold">Contact Us</h2>
-                    <p class="text-gray-600 mt-2 font-bold">Mumbai</p>
-                    <p class="text-gray-600 mt-0.5">22 A Yaqoob building,2nd floor, Office no -23,6Th kharwa lane,
+                    <p class="text-gray-600 mt-2 font-bold" itemprop="streetAddress">Mumbai</p>
+                    <p class="text-gray-600 mt-0.5" itemprop="streetAddress">22 A Yaqoob building,2nd floor, Office no -23,6Th kharwa lane,
                         <br />P.B Marg
-                        . Mumbai-400004.</p>
+                        . <span itemprop="postalCode">Mumbai-400004</span>.</p>
                     <div class="mt-4">
                         <p class="text-gray-600 mt-2 font-bold">WhatsApp Now</p>
-                        <p class="text-gray-600 mt-0.5">+91 982 076 7744</p>
-                        <p class="text-gray-600 mt-0.5">+91 911 057 4692</p>
+                        <p class="text-gray-600 mt-0.5" itemprop="telephone">+91 982 076 7744</p>
+                        <p class="text-gray-600 mt-0.5" itemprop="telephone">+91 911 057 4692</p>
                     </div>
                     <div class="mt-4">
                         <p class="text-gray-600 mt-2 font-bold">Email</p>

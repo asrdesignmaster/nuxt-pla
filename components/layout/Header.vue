@@ -1,5 +1,5 @@
 <template>
-  <header class="header backdrop-blur-xs">
+  <header class="header backdrop-blur-xs" itemscope  itemtype="https://schema.org/Header">
 
     <div class="container">
       <div class="header_content">

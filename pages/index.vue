@@ -1,70 +1,77 @@
 <template>
   <div class="container">
-    <div class="what_we_do | py-20 pt-40 text-center">
+    <div class="what_we_do | py-20 pt-40 text-center" itemscope  itemtype="https://schema.org/Article">
       <h2>WHAT WE DO</h2>
       <p class="px-0 lg:px-40 text-xl text-gray-500">Gold Leafing work is an “Art” which now a days became a kind of
         revolution in “Interior Decoration” world. Gold Leafing work is a present and better option against paints. It
         gives royal looks to walls, ceilings, Domes & Furniture etc.</p>
-    </div>
-    <div class="leafing | md:py-20 ">
-      <div class="bg-black flex h-[1200px] md:h-[400px] overflow-hidden flex-col md:flex-row">
-        <div class="leafing_bg gold_silver_leafing | flex items-center justify-center text-center ">
-          <div class="group w-full h-full flex items-center justify-center relative">
-            <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">Gold &
-              Silver Leafing</h3>
-            <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
-          </div>
-        </div>
-        <div class="leafing_bg copper_leafing | flex items-center justify-center text-center">
-          <div class="group w-full h-full flex items-center justify-center relative">
-            <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">Gold &
-              Silver Leafing</h3>
-            <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
-          </div>
-        </div>
-        <div class="leafing_bg anqique_leafing | flex items-center justify-center text-center">
-          <div class="group w-full h-full flex items-center justify-center relative">
-            <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">Gold &
-              Silver Leafing</h3>
-            <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
-          </div>
-        </div>
-        <div class="leafing_bg real_gold_leafing | flex items-center justify-center text-center">
-          <div class="group w-full h-full flex items-center justify-center relative">
-            <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">Gold &
-              Silver Leafing</h3>
-            <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <section class="videos">
     <div class="container">
       <div class="flex flex-col lg:flex-row gap-4 justify-between">
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
-            <source src="/videos/paradise-leafing-art-railing.mp4" type="video/mp4"/>
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+            <source src="/videos/paradise-leafing-art-railing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
-            <source src="/videos/paradise-leafing-art-brushing.mp4" type="video/mp4"/>
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+            <source src="/videos/paradise-leafing-art-brushing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
-            <source src="/videos/paradise-leafing-art-patching.mp4" type="video/mp4"/>
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+            <source src="/videos/paradise-leafing-art-patching.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy" >
-            <source src="/videos/paradise-leafing.mp4" type="video/mp4"/>
+          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+            <source src="/videos/paradise-leafing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="leafing | md:py-20 ">
+        <div class="bg-black flex h-[1200px] md:h-[400px] overflow-hidden flex-col md:flex-row">
+          <div class="leafing_bg gold_silver_leafing | flex items-center justify-center text-center ">
+            <div class="group w-full h-full flex items-center justify-center relative">
+              <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">Gold
+                &
+                Silver Leafing</h3>
+              <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
+            </div>
+          </div>
+          <div class="leafing_bg copper_leafing | flex items-center justify-center text-center">
+            <div class="group w-full h-full flex items-center justify-center relative">
+              <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">
+                COPPER
+                & CHAMPAGNE LEAFING</h3>
+              <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
+            </div>
+          </div>
+          <div class="leafing_bg anqique_leafing | flex items-center justify-center text-center">
+            <div class="group w-full h-full flex items-center justify-center relative">
+              <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">
+                ANTIQUE
+                LEAFING</h3>
+              <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
+            </div>
+          </div>
+          <div class="leafing_bg real_gold_leafing | flex items-center justify-center text-center">
+            <div class="group w-full h-full flex items-center justify-center relative">
+              <h3 class="text-3xl text-white font-bold uppercase md:hidden group-hover:block md:whitespace-nowrap">REAL
+                GOLD LEAFING</h3>
+              <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#0000004a]"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -115,7 +122,7 @@
         </div>
       </div>
       <div class="mt-10">
-        <Button link="/gallery">View Gallery</Button>
+        <Button link="/portfolio">View Gallery</Button>
       </div>
     </div>
   </div>
@@ -132,7 +139,7 @@
           <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration
             inspite of very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a
             new era in the world of interior lamination and paintings.</p>
-          <Button link="/gallery" class="max-w-[180px] text-center">View Gallery</Button>
+          <Button link="/portfolio" class="max-w-[180px] text-center">View Gallery</Button>
         </div>
         <div class="lg:flex-1 md:flex-auto flex items-center justify-center">
           <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
@@ -165,16 +172,6 @@ definePageMeta({
   layout: 'homepage'
 })
 
-useHead({
-  title: 'Home - Paradise Leafing Art',
-  meta: [
-    {
-      name: 'description',
-      content: 'Gold and silver leafing services for furniture, religious places, and interior decor across India.'
-    }
-  ]
-})
-
 </script>
 <style scoped>
 .leafing {
@@ -200,7 +197,6 @@ useHead({
     background-size: cover;
     flex: 1 1 0;
     transition: flex .4s, -webkit-box-flex .4s, -ms-flex .4s;
-    cursor: pointer;
 
     &:hover {
       flex: 3 1 0;

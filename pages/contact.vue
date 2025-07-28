@@ -102,4 +102,15 @@
 <script setup>
 import SocialIcons from '~/components/layout/Social.vue'
 
+const config = useAppConfig()
+
+useHead({
+    title: 'Contact us - '+ config.siteName,
+    meta: [
+        {
+            name: 'description',
+            content: 'CONTACT Interested to know more about leafing or need to get advice which leafing is best for your . you can email or call us anytime. MumbaiPB Marg, 6th Kharwa Lane, 22-A, Yaqoob bldg. 2nd floor, Mumbai – 400 004. WhatsApp Now+91 982 076 7744+91 911 057 4692 Emailparadiseleafingart@gmail.cominfo@paradiseleafingart.in Your name Your email Subject Your […]'
+        },
+    ]
+})
 </script>

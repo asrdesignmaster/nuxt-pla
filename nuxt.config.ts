@@ -2,7 +2,8 @@
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   appConfig: {
-    siteName: 'Zak Logistics',
+    siteName: 'Paradise Leafing Art',
+    siteUrl: 'https://pardiseleafingart.com/',
   },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
@@ -22,7 +23,14 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: {
         lang: 'en' // or 'hi', 'fr', etc.
-      }
+      },
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: 'images/leaf.svg' // Path to your favicon
+        }
+      ]
     }
   }
 })

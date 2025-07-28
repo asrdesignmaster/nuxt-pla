@@ -1,6 +1,19 @@
 <script setup>
 import Services from '~/components/pages/Services.vue';
 import CallNow from '~/components/pages/CallNow.vue'
+
+const config = useAppConfig()
+
+useHead({
+    title: 'Services - '+ config.siteName,
+    meta: [
+        {
+            name: 'description',
+            content: 'SERVICES Pure Gold Leafing for Masjid In Masjid gold leafing leafing is done on Mehrab, Mimber, gumbad and ayat . Mostly it’s done in original gold but rarely in artificial. Shrines & Temples In a residential interior space leafing gives aesthetic looks and it is usually done to enhance the decoration of the space .Gold […]'
+        },
+    ]
+})
+
 </script>
 
 <template>
