@@ -171,4 +171,8 @@
             </div>
         </div>
     </div>
+    <CallNow />
 </template>
+<script setup>
+import CallNow from '~/components/pages/CallNow.vue'
+</script>

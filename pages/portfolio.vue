@@ -51,9 +51,12 @@
 
 
       </div>
+      <CallNow />
 </template>
 
 <script setup>
+import CallNow from '~/components/pages/CallNow.vue'
+
 import { ref, computed } from 'vue'
 
 const selectedCategory = ref('Bunglow')
