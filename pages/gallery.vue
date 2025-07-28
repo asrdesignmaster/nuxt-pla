@@ -24,8 +24,8 @@
                         <div class="images-grid">
                               <div v-for="img in images[selectedCategory]" :key="img.src" class="gallery-image-wrapper"
                                     @click="openLightbox(img)">
-                                    <NuxtImg :src="img.src" :alt="img.alt" class="gallery-image" :format="webp"
-                                          densities="x1" sizes="sm:300px" loading="lazy" />
+                                    <NuxtImg :src="img.src" :alt="img.alt" class="gallery-image"
+                                          densities="x1" sizes="sm:300px" format="webp" loading="lazy" />
                               </div>
                         </div>
                         <!-- <button class="back-btn" @click="selectedCategory = null">
@@ -41,7 +41,7 @@
 
                   <button class="arrow left" @click.stop="prevImage" :disabled="lightboxIndex === 0">‹</button>
 
-                  <NuxtImg :src="lightboxImage.src" :alt="lightboxImage.alt" class="lightbox-img" :format="'webp'"
+                  <NuxtImg :src="lightboxImage.src" :alt="lightboxImage.alt" class="lightbox-img" format="webp"
                         densities="x1" sizes="sm:300px lg:1000px" />
                   <p class="lightbox-caption">{{ lightboxImage.alt }}</p>
 
@@ -112,12 +112,89 @@ const images = {
             { src: '/images/gallery/furniture-24.webp', alt: 'Furniture' },
             { src: '/images/gallery/furniture-25.webp', alt: 'Furniture' },
       ],
-      Warehousing: [
-            { src: '/assets/images/warehousing.jpg', alt: 'Warehouse Facility' },
+      Mandir: [
+            { src: '/images/gallery/mandir-1.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-2.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-3.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-4.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-5.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-6.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-7.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-8.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-9.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-10.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-11.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-12.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-13.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-14.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-15.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-16.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-17.webp', alt: 'Mandir' },
+            { src: '/images/gallery/mandir-18.webp', alt: 'Mandir' },
       ],
-      Fleet: [
-            { src: '/assets/images/truck.jpg', alt: 'Logistics Truck' },
+      Showpiece: [
+            { src: '/images/gallery/showpiece-1.webp', alt: 'Showpiece' },
+            { src: '/images/gallery/showpiece-2.webp', alt: 'Showpiece' },
+            { src: '/images/gallery/showpiece-3.webp', alt: 'Showpiece' },
+            { src: '/images/gallery/showpiece-4.webp', alt: 'Showpiece' },
+            { src: '/images/gallery/showpiece-5.webp', alt: 'Showpiece' },
+            { src: '/images/gallery/showpiece-6.webp', alt: 'Showpiece' },
+            { src: '/images/gallery/showpiece-7.webp', alt: 'Showpiece' },
+            { src: '/images/gallery/showpiece-8.webp', alt: 'Showpiece' },
       ],
+      Showroom: [
+            { src: '/images/gallery/showroom-1.webp', alt: 'Showroom' },
+            { src: '/images/gallery/showroom-2.webp', alt: 'Showroom' },
+            { src: '/images/gallery/showroom-3.webp', alt: 'Showroom' },
+            { src: '/images/gallery/showroom-4.webp', alt: 'Showroom' },
+            { src: '/images/gallery/showroom-5.webp', alt: 'Showroom' },
+            { src: '/images/gallery/showroom-6.webp', alt: 'Showroom' },
+            { src: '/images/gallery/showroom-7.webp', alt: 'Showroom' },
+            { src: '/images/gallery/showroom-8.webp', alt: 'Showroom' },
+      ],
+      Masjid: [
+            { src: '/images/gallery/masjid-1.webp', alt: 'Masjid' },
+            { src: '/images/gallery/masjid-2.webp', alt: 'Masjid' },
+            { src: '/images/gallery/masjid-3.webp', alt: 'Masjid' },
+            { src: '/images/gallery/masjid-4.webp', alt: 'Masjid' },
+            { src: '/images/gallery/masjid-5.webp', alt: 'Masjid' },
+            { src: '/images/gallery/masjid-6.webp', alt: 'Masjid' },
+            { src: '/images/gallery/masjid-7.webp', alt: 'Masjid' },
+            { src: '/images/gallery/masjid-8.webp', alt: 'Masjid' },
+      ],
+      'Frame Door & Ceiling': [
+            // Frames
+            { src: '/images/gallery/frame-1.webp', alt: 'Frame' },
+            { src: '/images/gallery/frame-2.webp', alt: 'Frame' },
+            { src: '/images/gallery/frame-3.webp', alt: 'Frame' },
+            { src: '/images/gallery/frame-4.webp', alt: 'Frame' },
+            // Doors
+            { src: '/images/gallery/door-1.webp', alt: 'Door' },
+            { src: '/images/gallery/door-2.webp', alt: 'Door' },
+            { src: '/images/gallery/door-3.webp', alt: 'Door' },
+            { src: '/images/gallery/door-4.webp', alt: 'Door' },
+            { src: '/images/gallery/door-5.webp', alt: 'Door' },
+            { src: '/images/gallery/door-6.webp', alt: 'Door' },
+            { src: '/images/gallery/door-7.webp', alt: 'Door' },
+            { src: '/images/gallery/door-8.webp', alt: 'Door' },
+            { src: '/images/gallery/door-9.webp', alt: 'Door' },
+            //ceilings
+            { src: '/images/gallery/ceiling-1.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-2.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-3.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-4.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-5.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-6.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-7.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-8.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-9.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-10.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-11.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-12.webp', alt: 'Ceiling' },
+            { src: '/images/gallery/ceiling-13.webp', alt: 'Ceiling' },
+
+      ],
+
 }
 
 function openLightbox(img) {

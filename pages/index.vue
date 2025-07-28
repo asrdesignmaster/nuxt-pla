@@ -46,42 +46,42 @@
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-1.webp" alt="Leafing Work 1"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-2.webp" alt="Leafing Work 2"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-1.webp" alt="Leafing Work 3"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-2.webp" alt="Leafing Work 4"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-1.webp" alt="Leafing Work 1"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-2.webp" alt="Leafing Work 2"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-1.webp" alt="Leafing Work 3"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
         <div class="overflow-hidden group">
           <NuxtImg src="/images/gallery/bunglow-2.webp" alt="Leafing Work 4"
             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
       </div>
       <div class="mt-10">
@@ -107,7 +107,7 @@
         <div class="lg:flex-1 md:flex-auto flex items-center justify-center">
           <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
             class="object-cover transform group-hover:scale-110 transition-transform duration-500 shadow-lg"
-            :format="webp" sizes="360px" loading="lazy" />
+            format="webp" sizes="360px" loading="lazy" />
         </div>
       </div>
     </div>
