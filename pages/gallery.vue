@@ -1,9 +1,9 @@
 <template>
       <div class="gallery-page | py-16">
             <!-- Hero Section -->
-                  <div class="container">
-                        <h2>Gallery</h2>
-                  </div>
+            <div class="container">
+                  <h2>Gallery</h2>
+            </div>
 
             <!-- Categories -->
             <section class="gallery-categories">
@@ -36,15 +36,19 @@
 
             <!-- Lightbox Modal -->
             <div v-if="lightboxImage" class="lightbox" @click.self="closeLightbox">
+                  <!-- ✖ Close Button -->
+                  <button class="close-btn" @click.stop="closeLightbox">×</button>
+
                   <button class="arrow left" @click.stop="prevImage" :disabled="lightboxIndex === 0">‹</button>
 
-                  <NuxtImg :src="lightboxImage.src" :alt="lightboxImage.alt" class="lightbox-img" :format="webp"
+                  <NuxtImg :src="lightboxImage.src" :alt="lightboxImage.alt" class="lightbox-img" :format="'webp'"
                         densities="x1" sizes="sm:300px lg:1000px" />
                   <p class="lightbox-caption">{{ lightboxImage.alt }}</p>
 
                   <button class="arrow right" @click.stop="nextImage"
                         :disabled="lightboxIndex === images[selectedCategory].length - 1">›</button>
             </div>
+
 
       </div>
 </template>
@@ -61,13 +65,13 @@ const lightboxImage = computed(() => {
 })
 
 const categories = [
-      { name: 'Bunglow'       },
-      { name: 'Furniture'     },
-      { name: 'Mandir'        },
-      { name: 'Showpiece'     },
-      { name: 'Showroom'      },
-      { name: 'Masjid'        },
-      { name: 'Frame Door & Ceiling'},
+      { name: 'Bunglow' },
+      { name: 'Furniture' },
+      { name: 'Mandir' },
+      { name: 'Showpiece' },
+      { name: 'Showroom' },
+      { name: 'Masjid' },
+      { name: 'Frame Door & Ceiling' },
 ]
 
 const images = {
