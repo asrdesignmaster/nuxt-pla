@@ -2,7 +2,8 @@
     <nav class="nav  md:flex hidden">
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/about-us">About <span class="sr-only">about Paradise Leafing Art</span></NuxtLink>
-      <NuxtLink to="/gallery">Gallery</NuxtLink>
+      <NuxtLink to="/gallery">Portfolio</NuxtLink>
+      <NuxtLink to="/services">Services</NuxtLink>
       <NuxtLink to="/contact">Contact</NuxtLink>
       <NuxtLink to="tel:1234567890">
         <span class="sr-only">Call us</span>

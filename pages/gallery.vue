@@ -1,16 +1,13 @@
 <template>
-      <div class="gallery-page">
+      <div class="gallery-page | py-16">
             <!-- Hero Section -->
-            <section class="gallery-hero">
                   <div class="container">
                         <h2>Gallery</h2>
                   </div>
-            </section>
 
             <!-- Categories -->
             <section class="gallery-categories">
                   <div class="container">
-                        <h3>Select a Category</h3>
                         <div class="categories-grid">
                               <button v-for="cat in categories" :key="cat.name"
                                     :class="['category-btn', { active: selectedCategory === cat.name }]"
@@ -24,13 +21,11 @@
             <!-- Images -->
             <section v-if="selectedCategory" class="gallery-images">
                   <div class="container">
-                        <h3>{{ selectedCategory }} Images</h3>
                         <div class="images-grid">
                               <div v-for="img in images[selectedCategory]" :key="img.src" class="gallery-image-wrapper"
                                     @click="openLightbox(img)">
                                     <NuxtImg :src="img.src" :alt="img.alt" class="gallery-image" :format="webp"
                                           densities="x1" sizes="sm:300px" />
-                                    <div class="image-caption">{{ img.alt }}</div>
                               </div>
                         </div>
                         <!-- <button class="back-btn" @click="selectedCategory = null">
@@ -66,21 +61,52 @@ const lightboxImage = computed(() => {
 })
 
 const categories = [
-      { name: 'Bunglow', icon: '/images/gallery/bunglow-1.webp' },
-      { name: 'Furniture', icon: '/images/gallery/bunglow-2.webp' },
-      { name: 'Warehousing', icon: '/images/gallery/furniture-41.webp' },
-      { name: 'Fleet', icon: '/images/gallery/mandir-2-1.webp' },
+      { name: 'Bunglow'       },
+      { name: 'Furniture'     },
+      { name: 'Mandir'        },
+      { name: 'Showpiece'     },
+      { name: 'Showroom'      },
+      { name: 'Masjid'        },
+      { name: 'Frame Door & Ceiling'},
 ]
 
 const images = {
       Bunglow: [
-            { src: '/images/gallery/temp.jpg', alt: 'Our Team' },
-            { src: '/images/gallery/temp.jpg', alt: 'Our Team' },
+            { src: '/images/gallery/bunglow-1.webp', alt: 'Bunglow' },
+            { src: '/images/gallery/bunglow-2.webp', alt: 'Bunglow' },
+            { src: '/images/gallery/bunglow-3.webp', alt: 'Bunglow' },
+            { src: '/images/gallery/bunglow-4.webp', alt: 'Bunglow' },
+            { src: '/images/gallery/bunglow-5.webp', alt: 'Bunglow' },
+            { src: '/images/gallery/bunglow-6.webp', alt: 'Bunglow' },
+            { src: '/images/gallery/bunglow-7.webp', alt: 'Bunglow' },
       ],
       Furniture: [
-            { src: '/assets/images/shipping.jpg', alt: 'Shipping Furniture' },
-            { src: '/assets/images/ocean-shipping.jpg', alt: 'Ocean Shipping' },
-            { src: '/assets/images/air-freight.jpg', alt: 'Air Freight' },
+            { src: '/images/gallery/furniture-1.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-2.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-3.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-4.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-5.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-6.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-7.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-8.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-9.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-10.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-11.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-12.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-12.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-13.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-14.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-15.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-16.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-17.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-18.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-19.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-20.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-21.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-22.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-23.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-24.webp', alt: 'Furniture' },
+            { src: '/images/gallery/furniture-25.webp', alt: 'Furniture' },
       ],
       Warehousing: [
             { src: '/assets/images/warehousing.jpg', alt: 'Warehouse Facility' },
@@ -116,21 +142,6 @@ function nextImage() {
 
 <style scoped>
 .gallery-page {
-      .gallery-hero {
-            background: #1abc9c;
-            color: white;
-            text-align: center;
-            padding: 4rem 1rem 2rem 1rem;
-
-            h2 {
-                  font-size: 2.5rem;
-                  margin-bottom: 0.5rem;
-            }
-
-            p {
-                  font-size: 1.2rem;
-            }
-      }
 
       .gallery-categories {
             padding: 2rem 0;
@@ -148,7 +159,7 @@ function nextImage() {
 
                   .category-btn {
                         background: #fff;
-                        border: 2px solid #1abc9c;
+                        border: 2px solid var(--color-primary);
                         border-radius: 8px;
                         padding: 1rem 2rem;
                         display: flex;
@@ -159,7 +170,7 @@ function nextImage() {
 
                         &.active,
                         &:hover {
-                              background: #1abc9c;
+                              background: var(--color-primary);
                               color: #fff;
                         }
 
@@ -175,12 +186,6 @@ function nextImage() {
       }
 
       .gallery-images {
-            padding: 2rem 0;
-
-            h3 {
-                  text-align: center;
-                  margin-bottom: 2rem;
-            }
 
             .images-grid {
                   display: grid;
@@ -189,10 +194,8 @@ function nextImage() {
 
                   .gallery-image-wrapper {
                         background: #fff;
-                        border-radius: 8px;
-                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-                        padding: 1rem;
                         text-align: center;
+                        cursor: pointer;
 
                         .gallery-image {
                               width: 100%;
@@ -210,7 +213,7 @@ function nextImage() {
             .back-btn {
                   display: block;
                   margin: 2rem auto 0 auto;
-                  background: #1abc9c;
+                  background: var(--color-primary);
                   color: #fff;
                   border: none;
                   border-radius: 4px;
@@ -220,7 +223,7 @@ function nextImage() {
                   transition: background 0.2s;
 
                   &:hover {
-                        background: #159c82;
+                        background: var(--color-primary);
                   }
             }
       }
