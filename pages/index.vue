@@ -11,25 +11,25 @@
     <div class="container">
       <div class="flex flex-col lg:flex-row gap-4 justify-between">
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
             <source src="/videos/paradise-leafing-art-railing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
             <source src="/videos/paradise-leafing-art-brushing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
             <source src="/videos/paradise-leafing-art-patching.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div class="">
-          <video width="320" height="640" controls muted preload="metadata" class="h-[640px]" loading="lazy">
+          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
             <source src="/videos/paradise-leafing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
