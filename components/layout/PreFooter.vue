@@ -3,7 +3,7 @@
         <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="">
-                    <NuxtImg src="/images/paradise-leafing-logo.svg" alt="Logo" class="w-56 mb-4" />
+                    <NuxtImg src="/images/paradise-leafing-logo.svg" alt="Logo" class="w-56 mb-4" loading="lazy" />
                     <h3 class="text-2xl font-bold">PARADISE LEAFING ARTS</h3>
                     <p class="text-gray-600 mt-2">Leafing is an art, done by an artist. Leafing is an art form which
                         gives royal
@@ -72,3 +72,5 @@
 import SocialIcons from '~/components/layout/Social.vue'
 
 </script>
+<style>
+</style>
