@@ -31,6 +31,11 @@ import Button from '~/components/common/LinkButton.vue'
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
+}
+@media (max-width:768px) {
+  .hero {
+    background: url('/images/main_background_mobile.webp') no-repeat center center;
+  }
 }
 </style>

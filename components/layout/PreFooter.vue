@@ -19,9 +19,11 @@
                 <div class="" itemscope itemtype="https://schema.org/LocalBusiness">
                     <h2 class="text-2xl font-bold">Contact Us</h2>
                     <p class="text-gray-600 mt-2 font-bold" itemprop="streetAddress">Mumbai</p>
-                    <p class="text-gray-600 mt-0.5" itemprop="streetAddress">22 A Yaqoob building,2nd floor, Office no -23,6Th kharwa lane,
+                    <p class="text-gray-600 mt-0.5" itemprop="streetAddress">22 A Yaqoob building,2nd floor, Office no
+                        -23,6Th kharwa lane,
                         <br />P.B Marg
-                        . <span itemprop="postalCode">Mumbai-400004</span>.</p>
+                        . <span itemprop="postalCode">Mumbai-400004</span>.
+                    </p>
                     <div class="mt-4">
                         <p class="text-gray-600 mt-2 font-bold">WhatsApp Now</p>
                         <p class="text-gray-600 mt-0.5" itemprop="telephone">+91 982 076 7744</p>
@@ -34,6 +36,9 @@
                         <p class="text-gray-600 mt-0.5"><a href="mailto:info@paradiseleafingart.in">
                                 info@paradiseleafingart.in</a>
                         </p>
+                    </div>
+                    <div class="mt-4">
+                        <SocialIcons />
                     </div>
                 </div>
                 <div class="">
@@ -62,3 +67,8 @@
         </div>
     </section>
 </template>
+
+<script setup>
+import SocialIcons from '~/components/layout/Social.vue'
+
+</script>

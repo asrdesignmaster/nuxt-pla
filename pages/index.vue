@@ -216,6 +216,11 @@ definePageMeta({
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
+  
+}
+@media (max-width:768px) {
+  .showpieces {
+    background: url('/images/relegious_mobile.webp');
+  }
 }
 </style>
