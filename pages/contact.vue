@@ -36,60 +36,6 @@
 
                         </div>
 
-                        <div class="md:w-1/3 py-5 px-0 lg:p-10 flex flex-col justify-between">
-                              <form class="space-y-6"  id="contactForm">
-                                    <div class="">
-                                          <!-- Full Name -->
-                                          <div class="mb-6">
-                                                <input type="text" name="fullName" placeholder="Full Name"
-                                                      class="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-gray-700 focus:border-gray-800"
-                                                      required />
-                                          </div>
-
-                                          <!-- Email -->
-                                          <div class="mb-6">
-                                                <input type="email" name="email" placeholder="Email Address"
-                                                      class="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-gray-700 focus:border-gray-800"
-                                                      required />
-                                          </div>
-
-                                          <!-- Mobile Number -->
-                                          <div class="mb-6">
-                                                <input type="tel" name="mobile" placeholder="Mobile Number"
-                                                      class="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-gray-700 focus:border-gray-800"
-                                                      required />
-                                          </div>
-
-                                          <!-- Company -->
-                                          <div class="mb-6">
-                                                <input type="text" name="company" placeholder="Company"
-                                                      class="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-gray-700 focus:border-gray-800"
-                                                      required />
-                                          </div>
-                                          <!-- Message -->
-                                          <div class="mb-6">
-                                                <textarea id="message" name="message"
-                                                      class="h-32 w-full resize-none rounded border border-gray-300 bg-white py-1 px-3 text-base leading-6 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
-                                                      required>Message</textarea>
-                                          </div>
-
-
-
-                                    </div>
-
-                                    <!-- Submit -->
-                                    <div>
-                                          <button type="submit"
-                                                class="w-full py-3 px-6 bg-[#147CB5] text-white font-medium rounded-lg shadow-sm hover:bg-red-700 transition duration-300">
-                                                Contact us
-                                          </button>
-                                    </div>
-                              </form>
-                              <p id="status" style="display:none;color:green;">Message is sent!</p>
-                              <p id="error" style="display:none;color:red;"></p>
-
-                        </div>
-
                         <!-- Right Side - Form -->
 
                   </div>

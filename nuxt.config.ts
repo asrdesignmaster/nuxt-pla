@@ -3,7 +3,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   appConfig: {
     siteName: 'Paradise Leafing Art',
-    siteUrl: 'https://pardiseleafingart.com/',
+    // siteUrl: 'https://pardiseleafingart.in/',
+    siteUrl: 'https://nuxt.paradiseleafingart.in/',
   },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
@@ -18,6 +19,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'static'
   },
+
   app: {
     baseURL: '/', // Use relative base path for static hosting //sites/nuxt-test
     head: {
