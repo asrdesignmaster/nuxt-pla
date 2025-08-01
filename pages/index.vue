@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="what_we_do | py-20 pt-40 text-center" itemscope  itemtype="https://schema.org/Article">
+    <div class="what_we_do | py-20 pt-40 text-center" itemscope itemtype="https://schema.org/Article">
       <h2>WHAT WE DO</h2>
       <p class="px-0 lg:px-40 text-xl text-gray-500">Gold Leafing work is an “Art” which now a days became a kind of
         revolution in “Interior Decoration” world. Gold Leafing work is a present and better option against paints. It
@@ -11,13 +11,13 @@
     <div class="container">
       <div class="flex flex-col lg:flex-row gap-4 justify-between">
         <div class="">
-          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy" >
+          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
             <source src="/videos/paradise-leafing-art-railing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div class="">
-          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy" >
+          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
             <source src="/videos/paradise-leafing-art-brushing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -29,7 +29,7 @@
           </video>
         </div>
         <div class="">
-          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy" >
+          <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
             <source src="/videos/paradise-leafing.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -37,9 +37,9 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class="leafing">
     <div class="container">
-      <div class="leafing | md:py-20 ">
+      <div class="py-20 ">
         <div class="bg-black flex h-[1200px] md:h-[400px] overflow-hidden flex-col md:flex-row">
           <div class="leafing_bg gold_silver_leafing | flex items-center justify-center text-center ">
             <div class="group w-full h-full flex items-center justify-center relative">
@@ -216,11 +216,31 @@ definePageMeta({
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  
+  background-repeat: no-repeat;
+
 }
+
 @media (max-width:768px) {
   .showpieces {
     background: url('/images/relegious_mobile.webp');
+  }
+
+  .leafing {
+    .gold_silver_leafing {
+      background: url('/images/gold-silver-leafing-mobile.webp');
+    }
+
+    .copper_leafing {
+      background: url('/images/copper-leafing-mobile.webp');
+    }
+
+    .anqique_leafing {
+      background: url('/images/antique-leafing-mobile.webp');
+    }
+
+    .real_gold_leafing {
+      background: url('/images/golden-leafing-mobile.webp');
+    }
   }
 }
 </style>
