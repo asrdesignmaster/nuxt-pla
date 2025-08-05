@@ -3,8 +3,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   appConfig: {
     siteName: 'Paradise Leafing Art',
-    // siteUrl: 'https://pardiseleafingart.in/',
-    siteUrl: 'https://nuxt.paradiseleafingart.in/',
+    siteUrl: 'https://paradiseleafingart.in/',
+    // siteUrl: 'https://nuxt.paradiseleafingart.in/',
   },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
@@ -31,6 +31,15 @@ export default defineNuxtConfig({
           rel: 'icon',
           type: 'image/x-icon',
           href: 'images/leaf.svg' // Path to your favicon
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com'
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: ''
         }
       ]
     }
