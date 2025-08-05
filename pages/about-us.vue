@@ -1,12 +1,13 @@
 <template>
-    <div class="container">
+    <Section>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
             <div class="what_we_do | py-20 order-2 lg:order-1" itemscope itemtype="https://schema.org/Article">
                 <h2 itemprop="headline">WHAT WE DO</h2>
                 <div class="" itemprop="articleBody">
                     <p class="text-xl text-gray-500">Gold leafing is a timeless art form performed by skilled artisans.
                         It adds a royal and aesthetic touch to any decor, traditionally used to create magnificent and
-                        regal environments. Both gold and silver leafing enhance interiors with artistic depth and refined
+                        regal environments. Both gold and silver leafing enhance interiors with artistic depth and
+                        refined
                         elegance, making spaces more distinguished and luxurious.</p>
                     <p class="text-xl text-gray-500 pt-4">At Paradise Leafing Art, we are dedicated to delivering the
                         highest standards of craftsmanship, with durability and meticulous attention to detail. For us,
@@ -172,10 +173,12 @@
 
             </div>
         </div>
-    </div>
+    </Section>
     <CallNow />
 </template>
 <script setup>
+import Section from '~/components/common/Section.vue'
+
 import CallNow from '~/components/pages/CallNow.vue'
 const config = useAppConfig()
 

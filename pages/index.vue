@@ -1,12 +1,12 @@
 <template>
   <Section>
-      <div class="what_we_do | py-20 pt-40 text-center" itemscope itemtype="https://schema.org/Article">
-        <h2>WHAT WE DO</h2>
-        <p class="px-0 lg:px-40 text-xl text-gray-500">Gold Leafing work is an “Art” which now a days became a kind of
-          revolution in “Interior Decoration” world. Gold Leafing work is a present and better option against paints. It
-          gives royal looks to walls, ceilings, Domes & Furniture etc.</p>
-        </div>
-    </Section>
+    <div class="what_we_do | py-20 pt-40 text-center" itemscope itemtype="https://schema.org/Article">
+      <h2>WHAT WE DO</h2>
+      <p class="px-0 lg:px-40 text-xl text-gray-500">Gold Leafing work is an “Art” which now a days became a kind of
+        revolution in “Interior Decoration” world. Gold Leafing work is a present and better option against paints. It
+        gives royal looks to walls, ceilings, Domes & Furniture etc.</p>
+    </div>
+  </Section>
   <Section sectionClass="videos">
     <div class="flex flex-col lg:flex-row gap-4 justify-between">
       <div class="">
@@ -122,23 +122,23 @@
   </Section>
   <Services />
   <CurtainSection sectionClass="showpieces | py-20 relative">
-      <div class="flex flex-col  md:flex-row relative z-10">
-        <div class="lg:flex-1 md:flex-auto flex flex-col  justify-center p-8">
-          <h3 class="text-white font-bold text-4xl">Furniture and Show pieces specialized</h3>
-          <p class="text-white text-2xl py-5">Gold and Silver leafing work</p>
-          <p class="text-white text-xl py-5">In Holy places, like Mandir, Masjid, Grudwara and Holy Shrines. Only real
-            Gold and precious materials are being used from centuries.</p>
-          <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration
-            inspite of very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a
-            new era in the world of interior lamination and paintings.</p>
-          <Button link="/portfolio" class="max-w-[180px] text-center">View Gallery</Button>
-        </div>
-        <div class="lg:flex-1 md:flex-auto flex items-center justify-center">
-          <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
-            class="object-cover transform group-hover:scale-110 transition-transform duration-500 shadow-lg w-full lg:w-auto"
-            format="webp" sizes="360px" loading="lazy" />
-        </div>
+    <div class="flex flex-col  md:flex-row relative z-10">
+      <div class="lg:flex-1 md:flex-auto flex flex-col  justify-center p-8">
+        <h3 class="text-white font-bold text-4xl">Furniture and Show pieces specialized</h3>
+        <p class="text-white text-2xl py-5">Gold and Silver leafing work</p>
+        <p class="text-white text-xl py-5">In Holy places, like Mandir, Masjid, Grudwara and Holy Shrines. Only real
+          Gold and precious materials are being used from centuries.</p>
+        <p class="text-white text-xl py-5">In olden times only 24kt real Gold Leaves were used for interior decoration
+          inspite of very heavy budget. But synthetic leaves from China, Turkey and Italy came in market which wrote a
+          new era in the world of interior lamination and paintings.</p>
+        <Button link="/portfolio" class="max-w-[180px] text-center">View Gallery</Button>
       </div>
+      <div class="lg:flex-1 md:flex-auto flex items-center justify-center">
+        <NuxtImg src="/images/pexels-max.jpg" alt="Religious Showpieces"
+          class="object-cover transform group-hover:scale-110 transition-transform duration-500 shadow-lg w-full lg:w-auto"
+          format="webp" sizes="360px" loading="lazy" />
+      </div>
+    </div>
   </CurtainSection>
   <Section sectionClass="testimonial">
     <div class="py-20 text-center">
@@ -154,6 +154,7 @@
 <script setup>
 import Section from '~/components/common/Section.vue'
 import CurtainSection from '~/components/common/CurtainSection.vue'
+
 import Button from '~/components/common/LinkButton.vue'
 import TestimonialSlider from '~/components/common/TestimonialSlider.vue'
 import Services from '~/components/pages/Services.vue'
