@@ -7,34 +7,7 @@
         gives royal looks to walls, ceilings, Domes & Furniture etc.</p>
     </div>
   </Section>
-  <Section sectionClass="videos">
-    <div class="flex flex-col lg:flex-row gap-4 justify-between">
-      <div class="">
-        <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
-          <source src="/videos/paradise-leafing-art-railing.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="">
-        <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
-          <source src="/videos/paradise-leafing-art-brushing.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="">
-        <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
-          <source src="/videos/paradise-leafing-art-patching.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="">
-        <video width="320" height="536" controls muted preload="metadata" class="h-[536px]" loading="lazy">
-          <source src="/videos/paradise-leafing.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-  </Section>
+
   <Section sectionClass="leafing">
     <div class="py-20 ">
       <div class="bg-black flex h-[1200px] md:h-[400px] overflow-hidden flex-col md:flex-row">

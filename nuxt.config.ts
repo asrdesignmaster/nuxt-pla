@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   appConfig: {
     siteName: 'Paradise Leafing Art',
     siteUrl: 'https://paradiseleafingart.in/',
-    // siteUrl: 'https://nuxt.paradiseleafingart.in/',
   },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
